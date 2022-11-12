@@ -4,7 +4,7 @@ import PrimaryButton from '../../../components/PrimaryButton/PrimaryButton';
 
 const ContactUs = () => {
     return (
-        <section className='text-center px-4 py-10'
+        <section className='text-center px-4 py-10 my-16'
             style={{
                 background: `url(${appointment})`
             }}>
