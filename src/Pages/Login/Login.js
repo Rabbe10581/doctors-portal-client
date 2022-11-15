@@ -14,7 +14,6 @@ const Login = () => {
         <div className='h-[800px] flex justify-center items-center'>
             <div className='w-96 p-7'>
                 <h2 className='text-xl text-center py-6 font-semibold'>Login</h2>
-
                 <form onSubmit={handleSubmit(handleLogin)}>
                     <div className="form-control w-full max-w-xs">
                         <label className="label"><span className="label-text">Email</span></label>
@@ -38,7 +37,7 @@ const Login = () => {
                     </div>
                     <input className='btn btn-accent w-full' value="login" type="submit" />
                 </form>
-                <p className='my-2 text-center'>New to Doctors Portal? <Link className='text-secondary' to="signup">Create New Account</Link></p>
+                <p className='my-2 text-center'>New to Doctors Portal? <Link className='text-secondary' to="/signup">Create New Account</Link></p>
                 <div className="divider">OR</div>
                 <button className='btn btn-outline w-full'>CONTINUE WITH GOOGLE</button>
             </div>
